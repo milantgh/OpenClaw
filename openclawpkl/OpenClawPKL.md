@@ -1,0 +1,65 @@
+Private Key Leakage Vulnerability in OpenClaw v2026.3.13
+
+Discoverer: Terry Tian
+
+Credits: westsec Security Team!
+
+1.  Introduction to Vulnerable Project and Affected Version
+
+    Project Overview
+
+Open-source Project:
+[openclaw/openclaw](https://github.com/openclaw/openclaw)
+
+Project Repository:
+
+https://github.com/openclaw/openclaw
+
+Official Demo/Blog URL: [https://openclaw.ai](https://www.foxcms.cn/)
+
+Project Description: \"Your own personal AI assistant. Any OS. Any
+Platform. The lobster way.\"
+
+Affected Version
+
+Version Number: v2026.3.13 (Latest stable release)
+
+Release Page:
+[https://github.com/openclaw/openclaw/releases](https://gitee.com/qianfox/foxcms.git)
+
+2.  Vulnerability Environment Construction: Ollama + Qwen Large Model
+
+Launch the Qwen large model, as shown in the figure:
+
+ollama run qwen2.5:7b
+
+![](images/media/image1.png){width="5.7659722222222225in"
+height="2.3027777777777776in"}
+
+Launch the OpenClaw gateway, as shown in the figure:
+
+openclaw gateway \--port 18789 \--verbose
+
+![](images/media/image2.png){width="5.759027777777778in"
+height="3.3090277777777777in"}
+
+3.  Vulnerability Proof Process
+
+The vulnerable software version is: OpenClaw 2026.3.13, as shown in the
+figure:
+
+![](images/media/image3.png){width="5.766666666666667in"
+height="1.4506944444444445in"}
+
+Functional points and specific process of the software vulnerability, as
+shown in the figure:After successful login to the background, execute
+the command localStorage directly in the browser console; the console
+will display the session public key and private key, resulting in the
+leakage of the session private key (privateKey), as shown in the figure:
+
+<http://127.0.0.1:18789/chat?session=1111%22%2F%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E>
+
+![](images/media/image4.png){width="5.759722222222222in"
+height="3.2402777777777776in"}
+
+Remediation Recommendations: Prevent private key leakage!
