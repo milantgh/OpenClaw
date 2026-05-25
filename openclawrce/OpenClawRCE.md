@@ -33,23 +33,20 @@ Launch the Qwen large model, as shown in the figure:
 
 ollama run qwen2.5:7b
 
-![](images/media/image1.png){width="5.7659722222222225in"
-height="2.3027777777777776in"}
+![](images/media/image1.png)
 
 Launch the OpenClaw gateway, as shown in the figure:
 
 openclaw gateway \--port 18789 \--verbose
 
-![](images/media/image2.png){width="5.759027777777778in"
-height="3.3090277777777777in"}
+![](images/media/image2.png)
 
 3.  Vulnerability Proof Process
 
 The vulnerable software version is: OpenClaw 2026.3.13, as shown in the
 figure:
 
-![](images/media/image3.png){width="5.766666666666667in"
-height="1.4506944444444445in"}
+![](images/media/image3.png)
 
 Functional points and specific processes of the software vulnerability,
 as shown in the figure:Log in to the background, click Configuration,
@@ -57,32 +54,24 @@ Communication, Appearance and Settings, AI & Agents, Infrastructure or
 Automation, then click Open --- the system will directly launch the
 command console by default, as shown in the figure:
 
-![无标题](images/media/image4.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image4.png)
 
-![无标题](images/media/image5.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image5.png)
 
-![无标题](images/media/image6.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image6.png)
 
-![无标题](images/media/image7.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image7.png)
 
-![无标题](images/media/image8.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image8.png)
 
-![无标题](images/media/image9.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![无标题](images/media/image9.png)
 
-![](images/media/image10.png){width="5.759722222222222in"
-height="3.06875in"}
+![](images/media/image10.png)
 
 At this point, system commands can be executed directly in the command
 console, as shown in the figure:
 
-![](images/media/image11.png){width="5.759722222222222in"
-height="3.0597222222222222in"}
+![](images/media/image11.png)
 
 Remediation Recommendations: Direct access to the command console is
 strictly prohibited. Restrict operational privileges to the minimum

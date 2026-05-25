@@ -33,23 +33,20 @@ Launch the Qwen large model, as shown in the figure:
 
 ollama run qwen2.5:7b
 
-![](images/media/image1.png){width="5.7659722222222225in"
-height="2.3027777777777776in"}
+![](images/media/image1.png)
 
 Launch the OpenClaw gateway, as shown in the figure:
 
 openclaw gateway \--port 18789 \--verbose
 
-![](images/media/image2.png){width="5.759027777777778in"
-height="3.3090277777777777in"}
+![](images/media/image2.png)
 
 3.  Vulnerability Proof Process
 
 The vulnerable software version is: OpenClaw 2026.3.13, as shown in the
 figure:
 
-![](images/media/image3.png){width="5.766666666666667in"
-height="1.4506944444444445in"}
+![](images/media/image3.png)
 
 Functional points and specific process of the software vulnerability, as
 shown in the figure:After successful login to the background, execute
@@ -59,7 +56,6 @@ leakage of the session private key (privateKey), as shown in the figure:
 
 <http://127.0.0.1:18789/chat?session=1111%22%2F%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E>
 
-![](images/media/image4.png){width="5.759722222222222in"
-height="3.2402777777777776in"}
+![](images/media/image4.png)
 
 Remediation Recommendations: Prevent private key leakage!
