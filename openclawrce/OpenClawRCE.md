@@ -8,14 +8,11 @@ Credits: westsec Security Team!
 
     Project Overview
 
-Open-source Project:
-[openclaw/openclaw](https://github.com/openclaw/openclaw)
+Open-source Project:[openclaw/openclaw](https://github.com/openclaw/openclaw)
 
-Project Repository:
+Project Repository:[https://github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
 
-https://github.com/openclaw/openclaw
-
-Official Demo/Blog URL: [https://openclaw.ai](https://www.foxcms.cn/)
+Official Demo/Blog URL: [https://openclaw.ai](https://openclaw.ai)
 
 Project Description: \"Your own personal AI assistant. Any OS. Any
 Platform. The lobster way.\"
@@ -24,8 +21,7 @@ Affected Version
 
 Version Number: v2026.3.13 (Latest stable release)
 
-Release Page:
-[https://github.com/openclaw/openclaw/releases](https://gitee.com/qianfox/foxcms.git)
+Release Page:[https://github.com/openclaw/openclaw/releases](https://github.com/openclaw/openclaw/releases)
 
 2.  Vulnerability Environment Construction: Ollama + Qwen Large Model
 
